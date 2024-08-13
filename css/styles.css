@@ -4,10 +4,10 @@ html{
 body{
     font-size: 16px;/* 1rem = 10px*/
 }
-h1 {
+.titulo {/*Con esto apuntamos a una clase*/
     text-align: center;
     font-size: 3.8rem;
  }
-span{
+#titulo span{ /*con esto apuntamos a un id - no se recomienda*/
     font-size: 2rem;
  }
