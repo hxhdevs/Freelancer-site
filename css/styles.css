@@ -11,3 +11,7 @@ body{
 #titulo span{ /*con esto apuntamos a un id - no se recomienda*/
     font-size: 2rem;
  }
+
+ span{
+    color: green!important;
+ }
