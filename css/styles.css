@@ -22,3 +22,18 @@ body{
 .titulo span{
     font-size: 2rem;
  }
+
+.contenedor{
+    width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    /* margin: 0 auto; esta linea hace lo mismo que las 4 de arriba*/
+}
+.nav-bg {
+    background-color: var(--secundario);
+}
+ .navegacion-principal{
+    background-color: var(--secundario);
+ }
