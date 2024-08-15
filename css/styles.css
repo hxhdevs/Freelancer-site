@@ -45,6 +45,45 @@ body{
 .navegacion-principal a:hover{
     background-color: var(--primario);
 }
+
 .navegacion-principal a:focus {
     color: red;
 }
+
+@media(min-width:480px){
+    h1{
+        
+    }
+}
+
+@media(min-width:768px){
+    h1{
+
+    }
+}
+
+/* body{
+    background-color: yellow;
+    font-size: 3rem;
+}
+
+@media(min-width:480px){
+    body{
+        background-color: blue;
+        font-size: .5rem;
+    }
+}
+
+@media(min-width:768px){
+    body{
+        background-color: cornflowerblue;
+    }
+}
+
+.contenedor{
+
+}
+
+.navegacion{
+    
+} */
