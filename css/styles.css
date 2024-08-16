@@ -68,6 +68,12 @@ body{
     }
 }
 
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* body{
     background-color: yellow;
     font-size: 3rem;
