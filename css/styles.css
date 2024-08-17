@@ -135,32 +135,20 @@ h1,h2,h3{
 .contenido-hero p{
      color: var(--blanco);
 }
-.ubicacion{
+.contenido-hero .ubicacion{
     display: flex;
     align-items: flex-end;
 }
-/* body{
-    background-color: yellow;
-    font-size: 3rem;
-}
-
-@media(min-width:480px){
-    body{
-        background-color: blue;
-        font-size: .5rem;
+/*Servicios */
+@media (min-width:768px){
+    .servicios{
+        display:grid;
+        grid-template-columns: 300px 300px ;
+        grid-template-rows: 200px 800px;
+        grid: 200px 800px/300px 300px;
+        grid-template-columns: 33.3% 33.3% 33.3%;/*Esto es lo mismo que las lineas anteriores en una sola linea*/
+        grid-template-columns: 1fr 1fr 1fr;/*Esto es lo mismo que las lineas anteriores*/
+        grid-template-columns: repeat(3, 1fr);/*Esto es lo mismo que las lineas anteriores*/
+     
     }
 }
-
-@media(min-width:768px){
-    body{
-        background-color: cornflowerblue;
-    }
-}
-
-.contenedor{
-
-}
-
-.navegacion{
-    
-} */
