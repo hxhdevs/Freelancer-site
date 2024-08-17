@@ -149,6 +149,6 @@ h1,h2,h3{
         grid-template-columns: 33.3% 33.3% 33.3%;/*Esto es lo mismo que las lineas anteriores en una sola linea*/
         grid-template-columns: 1fr 1fr 1fr;/*Esto es lo mismo que las lineas anteriores*/
         grid-template-columns: repeat(3, 1fr);/*Esto es lo mismo que las lineas anteriores*/
-     
+        column-gap: 1rem;/*con esto separamos las columnas del grid*/
     }
 }
